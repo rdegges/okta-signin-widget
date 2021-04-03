@@ -8973,9 +8973,10 @@ type-is@~1.6.15, type-is@~1.6.16:
     media-typer "0.3.0"
     mime-types "~2.1.18"
 
-u2f-api-polyfill@0.4.1:
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/u2f-api-polyfill/-/u2f-api-polyfill-0.4.1.tgz#6e415c473eefc40a8973f37271952b52d443d9ad"
+u2f-api-polyfill@0.4.4:
+  version "0.4.4"
+  resolved "https://registry.yarnpkg.com/u2f-api-polyfill/-/u2f-api-polyfill-0.4.4.tgz#5ee8f6483386d684ca8deafcce979027f34272db"
+  integrity sha512-qg3LBBHzN46zNE+ySChra8i9PecrWk83DmEkxxMJ9wAy8wV3FGJi6gtV32L+pCIP+kTaxhIvxQe2k76OMuHe9Q==
 
 uglify-js@^2.8.29:
   version "2.8.29"
