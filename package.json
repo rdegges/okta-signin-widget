@@ -52,7 +52,8 @@
     "build:webpack-release": "webpack --config webpack.release.config.js",
     "build:webpack-e2e-app": "webpack target/e2e/app/app-using-osw-entry.js target/js/app-bundle.js",
     "prestart": "yarn build:dev",
-    "prepublish": "yarn build:release"
+    "prepublish": "yarn run snyk-protect && yarn build:release",
+    "snyk-protect": "snyk protect"
   },
   "devDependencies": {
     "@sindresorhus/to-milliseconds": "^1.0.0",
@@ -119,9 +120,11 @@
     "jquery": "1.12.1",
     "q": "1.4.1",
     "u2f-api-polyfill": "0.4.1",
-    "underscore": "1.8.3"
+    "underscore": "1.8.3",
+    "snyk": "^1.653.0"
   },
   "optionalDependencies": {
     "fsevents": "*"
-  }
+  },
+  "snyk": true
 }
